@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="nav">
+    <nav class="nav ">
         <figure class="icon-menu">
             <img src="./icons/icon_menu.svg" alt="Icon menu">
         </figure>
@@ -34,10 +34,10 @@
                 <p>example@example.com</p>
                 <img src="./icons/flechita.svg" alt="arrow">
             </div>
-            <img src="./icons/icon_shopping_cart_notification.svg" alt="shopping cart">
+            <img class="shopping-cart-icon" src="./icons/icon_shopping_cart_notification.svg" alt="shopping cart">
         </section>
 
-        <section class="desktop-menu inactivate">
+        <section class="desktop-menu inactive">
             <ul>
                 <li>
                     <a href="">My orders</a>
@@ -51,7 +51,7 @@
             </ul>
         </section>
 
-        <section class="menu-mobil inactivate">
+        <section class="menu-mobil inactive">
             <section class="categories">
                 <ul>
                     <li> CATEGORIES</li>
@@ -94,12 +94,53 @@
                             <a href="">Sign out</a>
                         </li>
                     </div>
-                   
                 </ul>
             </section>
         </section>
     </nav>
+    
+    <aside class="my-order inactive">
 
+            <section class="title">
+                <img class="my-order-arrow-back" src="./icons/flechita.svg" alt="Arrow">
+                <h1>My order</h1>                
+            </section>
+            
+            <section class="shopping-car">                
+                <figure>
+                    <img src="https://images.pexels.com/photos/10904933/pexels-photo-10904933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike">
+                </figure>
+                <span>bike</span>
+                <span>$120.00</span>
+                <img src="./icons/icon_close.png" alt="Close">               
+            </section>
+    
+            <section class="shopping-car">                
+                <figure>
+                    <img src="https://images.pexels.com/photos/10904933/pexels-photo-10904933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike">
+                </figure>
+                <span>bike</span>
+                <span>$120.00</span>
+                <img src="./icons/icon_close.png" alt="Close">             
+            </section>
+    
+            <section class="shopping-car">                
+                <figure>
+                    <img src="https://images.pexels.com/photos/10904933/pexels-photo-10904933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike">
+                </figure>
+                <span>bike</span>
+                <span>$120.00</span>
+                <img src="./icons/icon_close.png" alt="Close">                
+            </section>
+    
+            <section class="order-detail">
+                <span>Total</span>                               
+                <span>$560.00</span>
+            </section>
+    
+            <button class="primary-button">Checkout</button>
+
+    </aside>
     <script src="./script.js"></script>
 </body>
 </html>
